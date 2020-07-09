@@ -1248,6 +1248,10 @@
               "signatureVersions" => ["s3", "s3v4"]
             },
             "us-east-2" => %{},
+            "us-west-000" => %{
+              "hostname" => "s3.us-west-000.backblazeb2.com",
+              "signatureVersions" => ["s3v4"]
+              },
             "us-west-1" => %{
               "hostname" => "s3.us-west-1.amazonaws.com",
               "signatureVersions" => ["s3", "s3v4"]
